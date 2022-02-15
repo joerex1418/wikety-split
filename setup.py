@@ -15,5 +15,5 @@ setuptools.setup(
     },
     license='GPU',
     packages=setuptools.find_packages(where='/wiki/wiki/',include=["__init__"]),
-    install_requires=['requests'],
+    install_requires=['requests','pandas','bs4'],
 )
