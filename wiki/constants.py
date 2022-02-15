@@ -1,0 +1,1 @@
+BASE = "https://en.wikipedia.org/api/rest_v1"
