@@ -11,10 +11,9 @@ setuptools.setup(
     long_description=long_description,
     url='https://github.com/joerex1418/wiki',
     project_urls = {
-        "Issues": "https://github.com/joerex1418/pywiki/issues",
-        "Projects": "https://github.com/joerex1418/pywiki/projects"
+        "Issues": "https://github.com/joerex1418/wikety-split/issues",
     },
     license='GPU',
-    packages=setuptools.find_packages(where='/simplestats/simplestats/',include=["mlb"]),
-    install_requires=['requests','pandas','beautifulsoup4','async','aiohttp','SQLAlchemy'],
+    packages=setuptools.find_packages(where='/wiki/wiki/',include=["__init__"]),
+    install_requires=['requests'],
 )
